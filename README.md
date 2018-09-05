@@ -34,8 +34,8 @@ Output: any or all of these:
     --wjs-plain                  exclude metadata in output JSON (default off)
 
     PNG Options:
-    --png-width 256              width of the image
-    --png-height 64              height of the image
+    --png-width 2048              width of the image
+    --png-height 128              height of the image
     --png-color-bg 00000000      bg color, rrggbbaa
     --png-color-center 000000ff  gradient center color, rrggbbaa
     --png-color-outer 000000ff   gradient outer color, rrggbbaa
@@ -54,3 +54,8 @@ Output: any or all of these:
  * [Node.js module](https://github.com/andrewrk/node-waveform)
  * [PHP Wrapper Script](https://github.com/polem/WaveformGenerator)
  * [Native Interface for Go](https://github.com/dz0ny/podcaster/blob/master/utils/waveform.go)
+
+
+## example:
+```
+./waveform mosquito03.wav --png mosquito03.png

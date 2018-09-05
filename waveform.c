@@ -19,8 +19,8 @@ static png_byte color_bg[4] = {0, 0, 0, 0};
 static png_byte color_center[4] = {0, 0, 0, 255};
 static png_byte color_outer[4] = {0, 0, 0, 255};
 static png_bytep color_at_pix;
-static int png_width = 256;
-static int png_height = 64;
+static int png_width = 2048;
+static int png_height = 128;
 static int png_frames_per_pixel;
 static int png_frames_until_emit;
 
@@ -60,8 +60,8 @@ WaveformJs Options:\n\
 --wjs-plain                  exclude metadata in output JSON (default off)\n\
 \n\
 PNG Options:\n\
---png-width 256              width of the image\n\
---png-height 64              height of the image\n\
+--png-width 2048              width of the image\n\
+--png-height 128              height of the image\n\
 --png-color-bg 00000000      bg color, rrggbbaa\n\
 --png-color-center 000000ff  gradient center color, rrggbbaa\n\
 --png-color-outer 000000ff   gradient outer color, rrggbbaa\n\
